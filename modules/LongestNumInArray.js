@@ -15,6 +15,6 @@ const LongestString = function (AV) {
    return ResultValue // returns function 
 }
 
-let BigNums = [1,2,1,10,123,100000,12345678]; //The LongestString function reads that numbers and returns the longest numbers length
+ //The LongestString function reads array numbers and returns the longest numbers length
 
-console.log(LongestString(BigNums)); 
+export { LongestString };
